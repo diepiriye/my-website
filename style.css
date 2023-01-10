@@ -1,0 +1,358 @@
+body{
+    background-color:white;
+    color: blue;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#header-nav{
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+    
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar-brand h2 {
+    font-family: sans-serif;
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    line-height: 1em;
+    margin-left: 5px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#nav-list{
+    margin-top: -20px;
+}
+
+#nav-list a{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+
+#nav-list a:hover{
+    background-color: grey;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid blue;
+}
+
+/****** carousel ********/
+
+.carousel-inner{
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 2px black;
+
+}
+
+/*** main content*******/
+
+#home{
+    width: 100%;
+    margin-top: 5px;
+    padding:10px;
+    background-color: red;
+}
+
+#about{
+    width: 100%;
+    margin-top: 5px;
+    padding:10px;
+
+}
+
+/***** skyeblue*****/
+
+
+
+#services{
+    width: 100%;
+    margin-top: 5px;
+    padding: 40px;
+    padding-top:50px;
+    background-color: #44A7C4;
+}
+
+#contact{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#email{
+    width: 100%;
+    margin-top: 5px;
+    padding:10px;
+    background-color:orange;
+}
+
+#location{
+width: 100%;
+height: 450px;
+padding:10px;
+overflow: hidden;
+}
+
+/***** contact columns****/
+#head{
+    width: 100%;
+    height: 510px;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    line-height: 2em;
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+
+}
+/***** services columns ***/
+.newservices{
+    width: 100%;
+    margin-top: 5px;
+    padding: 20px;
+    /*text-align: center;*/
+    color: white;
+    line-height: 2em;
+    /*border: 2px solid #f5f5f5;*/
+    border-radius: 20px;
+    /*box-shadow: inset 0px 0px 2px black;*/
+    font-family: ariel;
+}
+
+
+.newservices1{
+    width: 100%;
+    margin-top: 5px;
+    padding: 20px;
+    /*background-color: #f5f5f5;*/
+    color: white;
+    /*text-align: center;*/
+    line-height: 2em;
+    /*border: 2px solid #f5f5f5;*/
+    border-radius: 20px;
+/* box-shadow: inset 0px 0px 2px black;*/
+}
+
+
+.newservices2{
+    width: 100%; 
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+   /* background-color: blue;*/
+   /* text-align: center;*/
+    line-height: 2em;
+    /*border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 2px black;*/
+}
+
+/***** about columns ***/
+#newabout{
+    width: 100%;
+    margin-top: 5px;
+    padding: 30px;
+    text-align: left;
+    line-height: 2em;
+}
+
+.capital{
+    padding-bottom: 100px;
+    text-align: left;
+    font-size: 50px;
+    color: green;
+}
+
+/**** the Caption for Slider******/
+h3{
+    font-size: 120px;
+    
+}
+h4{
+    font-size: 22px;
+}
+span{
+    color: green;
+    font-size: 20px;
+}
+
+
+.captionslide {
+    font-size: 50px;
+    
+
+}
+
+
+
+
+.panel-footer{
+    margin-top:5px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #00008B;
+    color: white;
+}
+
+.panel-footer div.row{
+    margin-bottom: 40px;
+}
+
+#update{
+    line-height: 2em;
+}
+
+#dropdown{
+    margin-right: 10px;
+}
+
+/*#footerrow{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}*/
+
+/******Large devices******/
+@media (min-width: 1200px){
+
+}
+
+/*********** medium devices*******/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand h2{
+        font-size: 170%;
+        
+    }
+
+
+}
+
+/********* small devices ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+   /*.navbar-brand{
+    padding-top: 5px;
+    height: 80px;
+}*/
+    .navbar-brand h2{
+        font-size: 120%;
+        text-shadow: 1px 1px 1px black;
+}
+#nav-list a{
+    color: blue;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
+#nav-list{
+    margin-top: 0;
+}
+/****** this is for the slide caption*****/
+h3{
+    font-size: 70px;
+}
+.captionslide {
+    font-size: 30px;
+
+
+}
+    /****** this is for thr contact*******/ 
+ #head{
+        text-align: center;
+        padding-top: 20px;
+} 
+
+
+
+}
+
+/******** extra small devices ********/
+@media (max-width: 767px) {
+    .navbar-brand{
+        padding-top: 1px;
+        height: 85px;
+        padding: 20px;
+    }
+    .navbar-brand h2{
+        font-size: 125%;
+        text-shadow: none;
+    }
+    #nav-list a{
+        color: blue;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #nav-list{
+        margin-top: 0;
+    }
+
+    /*******footer****/
+    .panel-footer section{
+        text-align: center;
+        padding-top: 10px;
+
+    }
+
+    .panel-footer section hr{
+        width: 90%;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+    .captionslide {
+        font-size: 15px;
+        
+    
+    }
+
+    #head{
+        text-align: center;
+        padding-top: 20px;
+} 
+
+#update{
+    text-align:left;
+}
+
+
+
+
+
+}
+
+
+
+
+.spin-icon {
+    animation: spin 2.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
